@@ -1,0 +1,50 @@
+{
+  "total": 86,
+  "users": [
+    {
+      "id": "1",
+      "phone": "137000000",
+      "email": "123444@163.com",
+      "nickname": "虎纹鲨鱼",
+      "name": "张三",
+      "gender": 1,
+      "birth": "1994-05-24",
+      "address": "广东海洋大学主校区",
+      "accountStatus": "NoOK",
+      "joinDate": "2018-05-20",
+      "password": "12345600",
+      "IDType": "身份证",
+      "IDNumber": "532822199405247133"
+    },
+    {
+      "id": "1",
+      "phone": "13029044568",
+      "email": "123444@163.com",
+      "nickname": "虎纹鲨鱼",
+      "name": "张三",
+      "gender": 1,
+      "birth": "1994-05-24",
+      "address": "广东海洋大学主校区",
+      "accountStatus": "OK",
+      "joinDate": "2018-05-20",
+      "password": "12345600",
+      "IDType": "身份证",
+      "IDNumber": "532822199405247133"
+    },
+    {
+      "id": "1",
+      "phone": "16629044568",
+      "email": "123444@163.com",
+      "nickname": "虎纹鲨鱼",
+      "name": "张三",
+      "gender": 0,
+      "birth": "1994-05-24",
+      "address": "广东海洋大学主校区",
+      "accountStatus": "OK",
+      "joinDate": "2018-05-20",
+      "password": "12345600",
+      "IDType": "身份证",
+      "IDNumber": "532822199405247133"
+    }
+  ]
+}
