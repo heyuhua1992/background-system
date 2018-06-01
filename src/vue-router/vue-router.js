@@ -47,6 +47,42 @@ let routes = [
   {
     path: '/',
     component: Home,
+    name: '城市设置',
+    iconCls: 'el-icon-tickets',
+    children: [
+      {
+        path: '/editprovince',
+        component: resolve => require(['@/components/editCity/Editprovince'], resolve),
+        name: '省份编辑'
+      },
+      {
+        path: '/editcity',
+        component: resolve => require(['@/components/editCity/EditCity'], resolve),
+        name: '城市编辑'
+      }
+    ]
+  },
+  {
+    path: '/',
+    component: Home,
+    name: '公告管理',
+    iconCls: 'el-icon-tickets',
+    children: [
+      {
+        path: '/announcement',
+        component: resolve => require(['@/components/Announcement/Announcement'], resolve),
+        name: '公告列表'
+      },
+      {
+        path: '/editannouncement',
+        component: resolve => require(['@/components/Announcement/EditAnnouncement'], resolve),
+        name: '公告编辑'
+      }
+    ]
+  },
+  {
+    path: '/',
+    component: Home,
     name: '',
     iconCls: 'el-icon-tickets',
     leaf: true, // 只有一个节点
@@ -55,29 +91,6 @@ let routes = [
         path: '/ok',
         component: resolve => require(['@/components/OK'], resolve),
         name: '站点管理'
-      }
-    ]
-  },
-  {
-    path: '/',
-    component: Home,
-    name: '00',
-    iconCls: 'el-icon-tickets',
-    children: [
-      {
-        path: '/table',
-        component: Home,
-        name: 'Table'
-      },
-      {
-        path: '/form',
-        component: Home,
-        name: 'Form'
-      },
-      {
-        path: '/user',
-        component: Home,
-        name: '列表'
       }
     ]
   },
